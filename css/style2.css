@@ -1,0 +1,30 @@
+.flex-box {
+    width: 100%;
+    position: relative;
+}
+
+.image_title {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: #ee9dbf .5px .5px;
+    text-align: center;
+    font-size: 25;
+    top: -100px;
+}
+
+.image_title2 {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: #ee9dbf .5px .5px;
+    text-align: center;
+    font-size: 25;
+    top: -150px;
+}
+
+@media screen and (max-width: 480px) { 
+    header  {
+        width: 30%;
+        }
+    }
